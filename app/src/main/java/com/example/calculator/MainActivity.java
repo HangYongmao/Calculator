@@ -102,11 +102,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_minus:
             case R.id.btn_multiply:
             case R.id.btn_divide:
-                if (clear_flag) {
-                    clear_flag = false;
-                    str = "";
-                    et_input.setText("");
-                }
+//                if (clear_flag) {
+//                    clear_flag = false;
+//                    et_input.setText("");
+//                }
+                clear_flag = false;
                 et_input.setText(str + " " + ((Button) view).getText() + " ");
                 break;
 
