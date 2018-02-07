@@ -250,7 +250,7 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="5dp"
                             android:background="@drawable/white_selector"
-                            android:text="·"
+                            android:text="."
                             android:textSize="20sp" />
 
                     </LinearLayout>
